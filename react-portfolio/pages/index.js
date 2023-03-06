@@ -161,7 +161,7 @@ export default function Home() {
               <p className="text-amber-200 py-1 dark:text-teal-900">CSS</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200 max-w-[260px]">
               <Image
                 src={consulting}
                 width={100}
@@ -173,20 +173,20 @@ export default function Home() {
               </h3>
               <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
                 English
-                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900">
+                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
                   (Full Professional Proficiency)
                 </span>
               </p>
 
               <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
-                Cantonese 
-                <span className="block py-1 my-1 text-amber-200  dark:text-teal-900">
+                Cantonese
+                <span className="block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
                   (Native Proficiency)
                 </span>
               </p>
               <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
-                Mandarin                 
-                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900">
+                Mandarin
+                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm ">
                   (Full Professional Proficiency)
                 </span>
               </p>
@@ -251,7 +251,8 @@ export default function Home() {
               </p>
             </div>
             <div className="basis-1/8 flex-1 my-10 w-50 h-50">
-              <Image src={vtc} className="rounded-lg object-cover max-w-lg max-h-8" />
+              <Image src={vtc} className="rounded-lg object-cover " />
+              {/* max-w-lg max-h-8 */}
               <p className="mt-3 text-center text-gray-600 dark:text-white">
                 Associate Diploma in Electrical Engineering by the Hong Kong
                 Institute of Vocational Education
