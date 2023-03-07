@@ -114,22 +114,17 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
               <Image
                 src={design}
                 width={100}
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-amber-200  dark:text-teal-900">
-                Designs
+              <h3 className="text-lg font-medium pt-8 pb-10 text-amber-200  dark:text-teal-900">
+                Experiences:
               </h3>
-              <p className="py-2  text-amber-200  dark:text-teal-900">
-                test test test test
-              </p>
-              <h4 className="py-4 text-teal-200 dark:text-emerald-800">
-                Programming Languages
-              </h4>
+
               <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
               <p className="text-amber-200 py-1 dark:text-teal-900">SQL</p>
               <p className="text-amber-200 py-1 dark:text-teal-900">Solidity</p>
@@ -140,17 +135,13 @@ export default function Home() {
               <p className="text-amber-200 py-1 dark:text-teal-900">CSS</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-amber-200  dark:text-teal-900">
-                Designs
+              <h3 className="text-lg font-medium pt-8 pb-10 text-amber-200  dark:text-teal-900">
+                Programming Languages:
               </h3>
-              <p className="py-2  text-amber-200  dark:text-teal-900">
-                test test test test
-              </p>
-              <h4 className="py-4 text-teal-200 dark:text-emerald-800">
-                Programming Languages
-              </h4>
+
+
               <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
               <p className="text-amber-200 py-1 dark:text-teal-900">SQL</p>
               <p className="text-amber-200 py-1 dark:text-teal-900">Solidity</p>
@@ -161,36 +152,35 @@ export default function Home() {
               <p className="text-amber-200 py-1 dark:text-teal-900">CSS</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200 max-w-[260px]">
-              <Image
-                src={consulting}
-                width={100}
-                height={100}
-                className="mx-auto"
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2  text-amber-200  dark:text-teal-900">
-                Languages
-              </h3>
-              <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
-                English
-                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
-                  (Full Professional Proficiency)
-                </span>
-              </p>
 
-              <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
-                Cantonese
-                <span className="block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
-                  (Native Proficiency)
-                </span>
-              </p>
-              <p className="py-2 my-10 text-teal-200  dark:text-emerald-800">
-                Mandarin
-                <span className="inline-block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm ">
-                  (Full Professional Proficiency)
-                </span>
-              </p>
-            </div>
+<div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
+  <Image src={consulting} width={100} height={100} className="mx-auto" />
+  <h3 className="text-lg font-medium pt-8 pb-10 text-amber-200  dark:text-teal-900">
+    Languages:
+  </h3>
+  {/* <p class='invisible opacity-0' className="py-2  text-amber-200  dark:text-teal-900">
+    test test test test
+  </p>
+  <h4 className="invisible opacity-0 py-4 text-teal-200 dark:text-emerald-800">
+    Programming Languages
+  </h4> */}
+              <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
+
+
+  <p className="py-2  text-teal-200  dark:text-emerald-800">
+    Cantonese
+    <span className="block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
+      (Native Proficiency)
+    </span>
+  </p>
+  <p className="py-2  text-teal-200  dark:text-emerald-800">
+    Mandarin
+    <span className="block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm ">
+      (Full Professional Proficiency)
+    </span>
+  </p>
+</div>
+
           </div>
         </section>
         <section>
