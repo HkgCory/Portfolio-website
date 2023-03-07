@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out -b gh-pages -t true"
+    "deploy": "npm run build && gh-pages -d out -b gh-pages -t true",
     "postinstall": "node ./node_modules/next/dist/scripts/postinstall.js"
 
 
