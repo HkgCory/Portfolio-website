@@ -46,6 +46,7 @@ export default function Home() {
               </li>
               <li>
                 <a
+                class='invisible opacity-0'
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="#"
                 >
@@ -125,14 +126,13 @@ export default function Home() {
                 Experiences:
               </h3>
 
-              <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">SQL</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">Solidity</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">
-                JavaScript
-              </p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">HTML</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">CSS</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Machine Learning</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Deep Learning</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Data Analysis</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Web 3.0 Development</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">ERC-20/721 Smart Contract</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Frontend Development</p>
+
             </div>
 
             <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 dark:bg-yellow-200">
@@ -142,14 +142,14 @@ export default function Home() {
               </h3>
 
 
-              <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">SQL</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">Solidity</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">
-                JavaScript
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Python</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">SQL</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">Solidity</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">
+                JavaScript (React)
               </p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">HTML</p>
-              <p className="text-amber-200 py-1 dark:text-teal-900">CSS</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">HTML / CSS</p>
+
             </div>
 
 
@@ -164,7 +164,10 @@ export default function Home() {
   <h4 className="invisible opacity-0 py-4 text-teal-200 dark:text-emerald-800">
     Programming Languages
   </h4> */}
-              <p className="text-amber-200 py-1 dark:text-teal-900">Python</p>
+              <p className="py-2 text-teal-200  dark:text-emerald-800">English
+              <span className="block py-1 my-1 text-amber-200  dark:text-teal-900 text-sm">
+      (Full Professional Proficiency)
+    </span></p>
 
 
   <p className="py-2  text-teal-200  dark:text-emerald-800">
@@ -226,28 +229,41 @@ export default function Home() {
             <h3 className="text-3xl py-2 my-10 text-gray-800  dark:text-white">
               Education
             </h3>
-            <div className="basis-1/8 flex-1">
-              <Image
-                src={polyu}
-                className="rounded-lg object-cover"
-                width={"75%"}
-                height={"50%"}
-                style={{ objectPosition: "50% 50%" }}
-              />
+            <div className="w-1/8 flex-1">
+  <Image
+    src={polyu}
+    className="rounded-lg object-cover max-w-full mx-auto"
+    width={1000}
+    height={750}
+    style={{ objectPosition: "50% 50%" }}
+  />
 
-              <p className="mt-3 text-center text-gray-600 dark:text-white">
-                Bachelor of Engineering in Electronic and Information
-                Engineering by the Hong Kong Polyutechnic university
-              </p>
-            </div>
-            <div className="basis-1/8 flex-1 my-10 w-50 h-50">
-              <Image src={vtc} className="rounded-lg object-cover " />
-              {/* max-w-lg max-h-8 */}
-              <p className="mt-3 text-center text-gray-600 dark:text-white">
-                Associate Diploma in Electrical Engineering by the Hong Kong
-                Institute of Vocational Education
-              </p>
-            </div>
+  <p className="mt-3 text-center text-gray-600 dark:text-white">
+    Bachelor of Engineering in Electronic and Information Engineering by the
+    Hong Kong Polyutechnic university
+    <span className="block  text-gray-600 dark:text-white text-sm ">
+      Graduated in September 2022
+    </span>
+  </p>
+</div>
+
+<div className="basis-1/8 flex-1 my-10 w-50 h-50">
+  <Image
+    src={vtc}
+    className="rounded-lg object-cover mx-auto"
+    width={500}
+    height={750}
+    style={{ objectPosition: "50% 50%" }}
+  />
+  <p className="mt-3 text-center text-gray-600 dark:text-white">
+    Associate Diploma in Electrical Engineering by the Hong Kong Institute of Vocational Education
+    <span className="block  text-gray-600 dark:text-white text-sm ">
+      Graduated in June 2019
+    </span>
+  </p>
+</div>
+
+
           </div>
         </section>
       </main>
